@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EAngkotDriver</string>
+    <string name="title_activity_open_map">Map</string>
+    <string name="hint_email_address">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="desc_login_button">Login button for login activity.</string>
+    <string name="btn_text_login">Login</string>
+    <string name="desc_openmap_button">Open map for main activity</string>
+    <string name="btn_text_openmap">Open Map</string>
+</resources>

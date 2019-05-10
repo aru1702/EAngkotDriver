@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "610853553370",
+    "firebase_url": "https://e-angkot-com.firebaseio.com",
+    "project_id": "e-angkot-com",
+    "storage_bucket": "e-angkot-com.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610853553370:android:d802c42687f854d7",
+        "android_client_info": {
+          "package_name": "com.tim3a.eangkotdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "610853553370-oh5tit6g7n7t6of8g2jtdtjimr5vk0os.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tim3a.eangkotdriver",
+            "certificate_hash": "ac135c3dca684cff6ce4283fce9f0c4ba2cd4c39"
+          }
+        },
+        {
+          "client_id": "610853553370-a097r3ck6tqcnj6pk1rio3n0hb74dt1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB7k8oSfdGKrNYB0XxaSTPi1uhhWHlgC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "610853553370-a097r3ck6tqcnj6pk1rio3n0hb74dt1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
