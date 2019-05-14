@@ -7,4 +7,7 @@
     <string name="btn_text_login">Login</string>
     <string name="desc_openmap_button">Open map for main activity</string>
     <string name="btn_text_openmap">Open Map</string>
+    <string name="welcome_driver">Welcome driver,</string>
+    <string name="get_fare">Get Fare</string>
+    <string name="daftar_tarif_pelanggan">DAFTAR TARIF PELANGGAN</string>
 </resources>

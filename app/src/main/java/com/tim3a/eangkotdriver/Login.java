@@ -53,7 +53,7 @@ public class Login extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 final String loginemail = email.getText().toString().trim();
-                final String loginpassword = md5(password.getText().toString().trim());
+                final String loginpassword = password.getText().toString().trim();
                 firebaseAuth.signInWithEmailAndPassword(loginemail, loginpassword).addOnCompleteListener(Login.this, new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
@@ -76,28 +76,5 @@ public class Login extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
         firebaseAuth.removeAuthStateListener(firebaseAuthListener);
-    }
-
-    public String md5 (String s) {
-
-        try {
-            // Create md5 hash
-            MessageDigest md = java.security.MessageDigest.getInstance("MD5");
-            md.update(s.getBytes());
-            byte messageDigest[] = md.digest();
-
-            // Create Hex String
-            StringBuffer hexString = new StringBuffer();
-            for (int i=0; i<messageDigest.length; i++) {
-                hexString.append(Integer.toHexString(0xFF & messageDigest[i]));
-            }
-
-            return hexString.toString();
-
-        } catch (NoSuchAlgorithmException e) {
-            e.printStackTrace();
-        }
-
-        return "";
     }
 }
